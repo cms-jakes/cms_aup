@@ -1,0 +1,33 @@
+{
+	"manifest_version": 2,
+	
+	"name":"CMS AUP",
+	"description":"Acceptable Use Policy Agreement for Charlotte-Mecklenburg Schools students.",
+	"version": "0.1.2",
+
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_title":"CMS AUP",
+		"default_popup":"popup.html"
+	},
+	"permissions":[       
+		"activeTab",
+		"tabs",
+		"identity", 
+		"management",
+		"storage",
+		"notifications",
+		"https://ajax.googleapis.com/" 
+	],
+	"background":{
+		"persistent":false,
+		"scripts":[
+			"background.js"
+		]
+	},
+  	"web_accessible_resources": [
+    	"icon.png",
+    	"headerBG.png",
+    	"aup.html"
+  		]
+}

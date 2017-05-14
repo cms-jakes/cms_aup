@@ -1,0 +1,42 @@
+#popup {
+	width:150px;
+	height:300px;
+	margin:15px;
+}
+#header {
+	background-image: url("/headerBG.png")!important;
+}
+#footer{
+	background-image:url("/footerBG.jpg")!important;
+    padding:2% !important;
+    width:100%;
+    font-size:0.5em;
+}
+}
+.vcenter img.vcenter{
+	vertical-align: middle !important;
+}
+body{
+	background-image:url("/pageBG.jpg")!important;
+}
+.main {
+	padding:0% 2% 0% 2%;
+}
+.btn-primary {
+	color:#ffffff !important;
+}
+.btn-red {
+	background-color: #990000;
+	color:#ffffff !important;
+}
+a:focus {
+  	outline: 1px dashed red !important;
+	color: #ffffff !important;
+}
+img.center{
+    display: block;
+    margin: auto;
+}
+.instructions{
+	color:#990000 !important;
+}
